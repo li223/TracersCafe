@@ -1,0 +1,42 @@
+﻿@model EditModel
+
+<select id="userlist" onchange="EditChanged()"></select>
+
+<form action="api/edit" method="post" enctype="application/x-www-form-urlencoded">
+    <label for="ID">ID: </label>
+    <input type="text" name="ID" value="@Model.Information.ID" />
+    <br />
+    <label for="Title">Title: </label>
+    <input type="text" name="Title" value="@Model.Information.Title" />
+    <br />
+    <label for="Firstname">Firstname: </label>
+    <input type="text" name="Firstname" value="@Model.Information.Firstname" />
+    <br />
+    <label for="Surname">Surname: </label>
+    <input type="text" name="Surname" value="@Model.Information.Surname" />
+    <br />
+    <label for="AddressLineOne">AddressLineOne: </label>
+    <input type="text" name="AddressLineOne" value="@Model.Information.AddressLineOne" />
+    <br />
+    <label for="AddressLineTwo">AddressLineTwo: </label>
+    <input type="text" name="AddressLineTwo" value="@Model.Information.AddressLineTwo" />
+    <br />
+    <label for="AddressLineThree">AddressLineThree: </label>
+    <input type="text" name="AddressLineThree" value="@Model.Information.AddressLineThree" />
+    <br />
+    <label for="AddressLineThree">AddressLineFour: </label>
+    <input type="text" name="AddressLineFour" value="@Model.Information.AddressLineFour" />
+    <br />
+    <label for="Postcode">Postcode: </label>
+    <input type="text" name="Postcode" value="@Model.Information.Postcode" />
+    <br />
+    <label for="Telephone">Telephone: </label>
+    <input type="text" name="Telephone" value="@Model.Information.Telephone" />
+    <br />
+    <label for="Age">Age: </label>
+    <input type="text" name="Age" value="@Model.Information.Age" />
+    <br />
+    <button type="submit">Submit</button>
+    <br />
+    <a href="~/">Back</a>
+</form>
