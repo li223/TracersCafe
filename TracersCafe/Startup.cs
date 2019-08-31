@@ -97,12 +97,3 @@ namespace TracersCafe
         }
     }
 }
-
-
-
-
-
-//Only took me 5hrs. x)
-//Think this was mainly because I had to mess about with Net Core 2.1 not wanting to work then
-//setting up and googling stuff I had no clue about.
-//Also the fact I did this overnight. Probably that. /s

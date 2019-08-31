@@ -59,7 +59,6 @@ namespace TracersCafe.Controllers
         {
             Model.Information.Add(info);
             Model.SaveChanges();
-            //Can be improved by creating a "success" page instead of just returning to home
             ViewData["title"] = "Index";
             return View("/Views/Home/Index.cshtml");
         }
